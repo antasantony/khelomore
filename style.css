@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: sans-serif;
+    /* background-color: #fff; */
+}
+ header{ 
+     background-color: #fff; 
+     width: 100%;
+     height: 100px;
+     
+ } 
+.nav-bar{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    position:fixed;
+    z-index: 1;
+
+}
+.nav-logo{
+    width: 140px;
+    height: 35px;
+}
+.logo{
+    height: 35px;
+    width: 100%;
+    background-image: url(km-logo.png);
+    background-size:cover;
+}
+.booking-opt p{
+    display: inline;
+    margin-left: 28px;
+}
+.booking-opt button{
+    color: #ffff;
+    background-color:#ff4e00;
+    border-radius: 25px;
+    border:none;
+    width: 200px;
+    height: 45px;
+    font-weight: 700;
+}
+.booking-opt{ 
+ color: black;
+ font-weight: 700;
+ width: 52%;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+}
+
+/***  second panal  ***/
+.panal{
+width: 46%;
+height: 125px;
+background-color:rgb(247, 247, 247) ; 
+margin-left: 25%;
+border-top-left-radius:10px ;
+border-top-right-radius: 10px;
+}
+.select-panal{
+   text-transform:uppercase ;
+   padding-top: 15px;
+   font-weight: 700;
+   color: #ff4e00;
+   /* text-decoration: underline solid 2px; 
+   text-underline-offset: 10px;*/
+   display: flex;
+   justify-content: space-around;
+}
+.search-panal{
+   margin: 25px 25px 25px 10px;
+   
+}
+.search-panal button{
+    background-color: #ff4e00;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase ;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+ .search-panal i{ 
+    position: relative;
+    left: 30px;
+    color: rgb(39, 35, 35);
+}
+.search-input{
+    border-radius: 10px;
+    border: none;
+    width: 64%;
+    height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left:45px ;
+}
+/* first section */
+.content{
+ display: flex;
+ justify-content: center;   
+}
+.content-box{
+color: black;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+
+}
+.content-img{
+ width:280px;
+ height: 180px;
+ margin: 30px 10px 10px 10px;
+}
+/* available socities */
+.places{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 24px 1rem 1rem;
+
+}
+.available-places{
+    display:flex;
+    padding-left: 80px;
+}  
+.places-button1{
+    background-color: #ff4e00;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 25px;
+}
+.places-button2{
+    border: 0.1px solid;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.places h3{
+    padding-right: 70px;
+    cursor: pointer;
+    color: #ff4e00;
+    text-transform: uppercase;
+}
+/* exect loction */
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.location-box p{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.location-img{
+    width: 324px;
+    height: 182px;
+}
+.app-bannar{
+    width: 85%;
+    height: 142px;
+    margin-top:40px;
+    margin-left: 100px;
+}
+/* sport */
+.sports{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 1rem 120px;
+}
+.sports h3{
+    cursor: pointer;
+    color: #ff4e00;
+    text-transform: uppercase;
+}
+.sports-items{
+    display: flex;
+    justify-content: center;  
+}
+.sports-items-img{
+    width:280px;
+    height: 325px;
+    margin: 30px 10px 0px 10px;
+}
+.sports-name{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    
+}
+.name button{
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    width: 190px; 
+}
+/* cricket special */
+.cricket{
+   padding: 30px 0px 0px 100px; 
+}
+.cricket-coach{ 
+display: flex;
+ justify-content: center; 
+ width: 100%;
+ height: 450px;
+
+}
+.coaching-img{
+    width: 360px;
+    height: 390px;
+    margin: 2rem 25px 0px 25px;
+    
+}
+.coaching-place {
+    color: #fff;
+    background-color: #212121;
+    width: 325px;
+    height: 88px;
+    font-size: 22px;
+    font-weight:600 ;
+    padding:18px ;
+    text-align: center;
+    top:-128px;
+    position: relative;
+    left: 25px;
+    line-height: 30px;
+    border-bottom-right-radius:16px;
+    border-bottom-left-radius:16px;
+}
+.review-heading{
+    padding-left: 90px;
+    
+}
+.review{
+    background-color: white;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.review-block{
+    width: 25%;
+    height: 185px;
+    padding: 12px;
+    border: solid 1px rgb(179, 176, 176);
+    margin-left: 50px;
+    text-align: left;
+    border-radius: 20px;
+    
+}
+.block-head{
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    
+}
+.img-review{
+    width: 80px;
+    height:12px;
+    padding-top: 10px;
+}
+.review-block p{
+    padding-top: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+}
+.review-tag{
+    padding-top: 30px;
+    width: 6px;
+    height: 8px;
+}
+.review-block span{
+    font-size: 12px;
+    color: #ff4e00;
+}
+.gallery h2{
+    padding: 30px 120px 1rem 120px;
+}
+.gallery-items{
+    display: flex;
+    justify-content: center;  
+}
+.gallery-items-box{
+    padding-left: 60px;
+    padding-bottom: 45px;
+}
+.gallery-items-img{
+    width: 340px;
+    height: 358px;
+    margin: 30px 10px 0px 10px;
+}
+.last-panal{
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 24px 24px 0px 24px;
+    background: #212121;
+    margin-top: 40px;
+}
+.last-block h2{
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.last-block p{
+    margin: 8px 0px 32px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #acacac;
+}
+/* last booking section */
+hr{
+  color: #979797;
+  width: 95%;
+  margin: 0;
+  border-style: solid;
+}
+.last-enq{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+.sticker{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.last-img{
+    background-color: #ffffff;
+    width: 54px;
+    height: 54px;
+    border-radius: 5px;
+}
+.last-para{
+    padding-left: 20px;
+}
+.last-para h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 6px;
+}
+.last-para p{
+    font-size: 12px;
+    color: #acacac;
+} 
+.end{
+    display: flex;
+    padding: 24px 100px;
+}
+.end-details{
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 1px solid #979797;
+    padding-right: 80px;  
+}
+.about{
+    color: #acacac;  
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px
+}
+.about h3{
+ color: #ffffff;
+ font-weight: 700;
+}
+.help{
+    color: #acacac;  
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left:40px;
+    
+}
+.help h3{
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+.media{
+color: #ffffff;
+padding-left: 80px;
+border-right: 1px solid #979797;   
+padding-right: 80px;
+
+
+}
+.md-img{
+    width: 32px;
+    height: 32px;
+    padding-left: 10px;
+}
+.md-store-img{
+    
+    background-color: #f7f3f3;
+
+}
+
+.media h5{
+    padding: 5px 0px 15px 10px;
+}
+.contact{
+    padding-left: 80px;
+}
+.contact p{
+    color: #acacac;  
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px
+}
+.contact h5{
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 10px;  
+}
+.rights{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
